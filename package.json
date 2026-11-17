@@ -1,0 +1,12 @@
+{
+  "name": "code-crime-scene",
+  "version": "2.0.0",
+  "description": "A comic-detective debugging game: 50 coding crime scenes in Python, Java and JavaScript.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "node tools/build.js",
+    "test": "node tests/check-cases.js",
+    "test:real": "node tests/run-real.js"
+  }
+}
